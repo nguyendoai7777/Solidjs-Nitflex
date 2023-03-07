@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "paths": {
+      /*"@route": ["src/routes*/
+      /*"],
+      "@screens*/
+      /*": ["src/screens*/
+      /*"],
+      "@components*/
+      /*": ["src/components*/
+      /*"]*/
+    },
+    "noEmit": true,
+    "isolatedModules": true
+  }
+}
