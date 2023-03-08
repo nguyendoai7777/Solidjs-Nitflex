@@ -3,3 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.MuiFormControlLabel-label {
+  user-select: none !important;
+}
+
+.set-text-white {
+  color: #fff !important;
+  * {
+    color: #fff !important;
+  }
+}
+
+.input-error {
+  position: absolute;
+  top: calc(100% + 2px);
+  color: red !important;
+  font-size: 0.85rem;
+}

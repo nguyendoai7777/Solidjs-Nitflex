@@ -1,0 +1,28 @@
+.started-box {
+  width: 750px;
+  position: absolute;
+  z-index: 4;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  * {
+    color: #fff;
+  }
+  .lead-title {
+    font-size: 4rem;
+  }
+  .md-title {
+    font-size: 1.625rem;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+  }
+  .gt-button {
+    font-size: 1.4rem;
+    color: #fff;
+  }
+  .gt-input {
+    background-color: #333;
+    border-radius: 7px 0 0 7px;
+  }
+}

@@ -1,0 +1,37 @@
+.preview {
+  position: relative;
+  height: 1050px;
+  width: 100%;
+  .av-thumb {
+    position: absolute;
+    width: 100%;
+    inset: 0;
+  }
+  .info {
+    position: absolute;
+    left: 2.65rem;
+    width: 32%;
+    .name-as-pic {
+    }
+    .description {
+      font-size: 1.2vw;
+      font-weight: bolder;
+      color: #fff;
+      line-height: normal;
+    }
+  }
+  .p-button {
+    height: 56px;
+    background-color: deeppink;
+    width: 120px;
+    font-size: 1.2vw;
+    color: #fff;
+  }
+  .r-triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #555;
+    border-bottom: 10px solid transparent;
+  }
+}

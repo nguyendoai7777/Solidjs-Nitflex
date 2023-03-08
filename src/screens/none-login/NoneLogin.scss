@@ -1,0 +1,63 @@
+.nl-box {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  img.bgi {
+    width: 100%;
+    height: 800px;
+  }
+  &::after {
+    z-index: 3;
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    );
+  }
+}
+
+.root-dialog {
+  * {
+    color: #fff;
+  }
+  .MuiDialog-container .MuiPaper-root {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .box {
+    min-width: 470px;
+    padding: 2rem;
+    .header {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+.common-checkbox {
+  .Mui-checked {
+    color: deeppink !important;
+    svg {
+      fill: deeppink !important;
+    }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fit-height {
+  height: fit-content;
+}
+
+button {
+  text-transform: unset !important;
+  * {
+    text-transform: unset !important;
+  }
+}

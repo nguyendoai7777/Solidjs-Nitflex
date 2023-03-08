@@ -1,0 +1,18 @@
+.app-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.25rem 2.65rem;
+  transition: 0.55s;
+  z-index: 10;
+  a {
+    text-decoration: none;
+  }
+  button {
+    color: #fff;
+  }
+  .active * {
+    color: dodgerblue;
+  }
+}
